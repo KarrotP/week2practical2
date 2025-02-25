@@ -61,3 +61,48 @@ a {
 #main-nav li:hover{
     background-color: rgb(171, 202, 236);
 }
+
+main {
+    width: 70%;
+    float: left;
+    padding-right: 3em;
+}
+
+footer {
+    width: 25%;
+}
+
+aside {
+    line-height: 1em;
+}
+
+aside li {
+    background-color: rgb(129, 165, 203);
+    padding: 10px;
+    border-radius: 6px;
+    display: grid;
+    margin-top: 1em;
+}
+
+aside li a {
+    color: aliceblue;
+    text-align: center;
+}
+
+aside li:hover {
+    background-color: rgb(171, 202, 236);
+}
+
+@media screen and (max-width:768px) {
+    #body {
+        background-color: white;
+        margin: 0;
+    }
+    #content-area {
+        margin: 0;
+        padding: 0;
+    }
+    #main-nav li {
+        margin: 0;
+    }
+}
